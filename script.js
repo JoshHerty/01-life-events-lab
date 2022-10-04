@@ -42,5 +42,13 @@ let counter = 0;
 /* Write a while loop that loops while true.  
 Declare a variable named randomNumber that is initialized to a random integer 
 between 1 and 10. Google search how to do this. */
-let i = true;
-while (i !== true) {}
+
+while (pineapplePizza === true) {
+  console.log(counter++);
+  break;
+}
+
+let randomNumber = 0
+
+function Random() {
+  randomNumber = Math.floor((Math.random() * 10) + 1);
